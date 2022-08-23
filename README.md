@@ -64,3 +64,16 @@ Start the API REST in port 8001
 
 
 Example of Request in cURL
+
+
+    curl --location --request POST 'http://127.0.0.1:8000/users/' \
+    
+    --form 'user_email="meloadik@gmail.com"' \
+    
+    --form 'user_phone_number=" 8117904544"' \
+    
+    --form 'lat="20.97500"' \
+    
+    --form 'lng="89.61414"' \
+    
+    --form 'user_address="rfm mz5 lt4"'
